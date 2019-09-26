@@ -1,8 +1,65 @@
-img {
+* {
+    box-sizing: border-box;  
+}
+#logo-google {
     margin: 0 auto;
     display: block;
     padding-top: 110px;
 }
-img {
-    /* display: inline; */
+.foto-ricerca {
+    
+    height: 24px;    
+    flex: 1 1 24px;
+    align-self: center;
+}
+div img {
+    width: 80%;
+}
+#mag {
+    width: 40%;
+    padding: 4px 0 0 5px;
+}
+
+.input-ricerca {
+    flex: 3 1 384px;
+    border: none;
+}
+#campo-ricerca {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 482px;
+    height: 44px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+input:focus {
+    outline: none;
+}
+.button {
+    
+    padding: 10px 16px; 
+    background-color: #f2f2f2;
+    color:#5F6368;
+    font-weight: 400;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    /* margin-right: 15px; */
+
+}
+.button:hover {
+    border: 1px solid lightgrey;
+    color: black;
+}
+
+#campo-bottoni {
+    
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+
 }
