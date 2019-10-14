@@ -1,6 +1,16 @@
 * {
     box-sizing: border-box;  
 }
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 13px;
+}
 #logo-google {
     margin: 0 auto;
     display: block;
@@ -16,7 +26,7 @@ div img {
     width: 80%;
 }
 #mag {
-    width: 40%;
+    width: 50%;
     padding: 4px 0 0 5px;
 }
 
@@ -62,4 +72,105 @@ input:focus {
     display: block;
     padding-top: 30px;
 
+}
+/* NAV STYLING          */
+
+#nav-destra {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+#nav-destra li {
+    
+    
+    
+    
+    
+
+}
+li:nth-child(2),
+li:nth-child(1) {
+    padding: 10px 10px;
+}
+li a {
+    text-decoration: none;
+    color: #777777;
+}
+li a:hover {
+    color: #656565;
+    text-decoration: underline;
+}
+
+li:nth-child(3) {
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-repeat: no-repeat;
+    background-position-x: -126px;
+    background-position-y: -35px;
+    width: 35px;
+    height: 37px;
+}
+li:nth-child(3):hover {
+    opacity: .55;
+}
+li:nth-child(4) {
+    color: white;
+    background-color: Green;
+    border-radius: 50px;
+    padding: 8px 11px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8px;
+    margin-right: 22px;
+    width: 35px;
+    height: 35px;
+}
+
+
+/* FOOTER STYLING */
+
+footer {
+    /* flex-shrink: 0; */
+    margin: 0;
+    border: 1px solid rgb(228, 222, 222);
+}
+footer div {
+    background-color: #f2f2f2;
+    height: 42px;
+}
+#secondo {
+    display: flex; 
+    justify-content: space-between;
+
+}
+.cont {
+    /* border: 1px solid rgb(194, 182, 182); */
+    display: flex;
+    justify-content: flex-start;
+}
+.contt {
+    /* display: inline; */
+    /* border: 1px solid rgb(189, 183, 183); */
+    display: flex;
+    justify-content: flex-end;
+}
+footer div p,
+.cont a:first-child {
+    padding: 12px;
+    padding-left: 27px;
+    color: rgba(0,0,0,.54);
+}
+footer div a {
+    padding: 12px;
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+    
+}
+p {
+    margin: 0;
+}
+.sinistra:hover,
+.destra:hover {
+    text-decoration: underline;
 }
